@@ -17,6 +17,7 @@ body{
 button{
     width: 300px;
     background-color: white;
+    height:6em;
 }
 button::hover{
     background-color:rgb(255, 0, 0);
@@ -24,6 +25,4 @@ button::hover{
 a{
     text-align: center;
 }
-#randomBtn{
-    text-align: center;
-}
+
