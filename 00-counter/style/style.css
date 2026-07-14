@@ -1,14 +1,14 @@
 
-#output{
+#counterLabel{
     display: block;
     text-align: center;
     font-size: 100px;
 }
-#buttons1{
+#buttons{
     text-align: center;
 
 }
-#randomlabels{
+#randomLabels{
     text-align: center;
 }
 body{
@@ -21,4 +21,9 @@ button{
 button::hover{
     background-color:rgb(255, 0, 0);
 }
-
+a{
+    text-align: center;
+}
+#randomBtn{
+    text-align: center;
+}
