@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>game</title>
     <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
     <header>
         <nav>
             <a href="index.html">counter</a>
             <a href="randomizer.html">randomizer</a>
         </nav>
     </header>
+
+    <div id="numberGameComponents">
+        <input type="number" id="numberGuessInput" value="0"><br>
+        <button id="numberGuessGameBtn">try</button>
+    </div>
     
-</head>
-<body>
-    <input type="number" id="numberGuessInput"><br>
-    <button id="numberGuessGameBtn" for="numberGuessInput">try</button>
-    <script src="number-guessing.js"></script>
+    <script src="script/number-guessing.js"></script>
 </body>
 </html>
