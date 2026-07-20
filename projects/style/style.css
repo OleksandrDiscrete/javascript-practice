@@ -1,28 +1,14 @@
 
 #counterLabel{
     display: block;
-    text-align: center;
     font-size: 100px;
-}
-#buttons{
-    text-align: center;
-
-}
-#randomLabels{
-    text-align: center;
 }
 body{
     background-color: aquamarine;
+    text-align: center;
 }
 .button{
     width: 300px;
     background-color: white;
     height:6em;
-    text-align: center;
-}
-#randomCheckBoxes{
-    text-align: center;
-}
-header{
-    text-align: center;
 }
