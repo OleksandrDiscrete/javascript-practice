@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversators</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="randomizer.html">randomizer</a>
+            <a href="number-guessing.html">guess the number</a>
+            <a href="index.html">counter</a>
+        </nav>
+    </header>
+
+    <div id="temperatureConvertor">
+
+        <input id="inputTemperature" type="number"><br>
+        <label for="temperatureType">Choose convertion:</label>
+
+        <select id="temperatureType">
+            <option value="c_to_f">from С to F</option>
+            <option value="c_to_k">from С to K</option>
+            <option value="k_to_f">from K to F</option>
+            <option value="k_to_c">from K to C</option>
+            <option value="f_to_c">from F to C</option>
+            <option value="f_to_k">from F to K</option>
+        </select>
+
+        <button id="convertBtn">Convert</button>
+    </div>
+
+    <script src="script/convertors.js"></script>
+</body>
+</html>
