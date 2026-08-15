@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>counter programm</title>
+    <title>login form</title>
     <link rel="stylesheet" href="style/style.css">
     
 </head>
@@ -16,14 +16,17 @@
         </nav>
     </header>
 
-    <label id="counterLabel">0</label><br>
-    <div id="buttons">
-        <button id="decreaseBtn">decrease</button>
-        <button id="resetBtn">reset</button>
-        <button id="increaseBtn">increase</button><br>
-        <input type="number" id="setterInput">
-        <button id="setterBtn">set</button>
-    </div><br>
+    <form>
+
+        <label for="userEmail">email:</label>
+        <input id="userEmail" type="email" required><br>
+        
+        <label for="userPassword">password:</label>
+        <input id="userPassword" type="password" minlength="8" maxlength="20" required><br>
+
+        <button onclick="checkValidity()">submit</button>
+    </form>
+
 
 
 

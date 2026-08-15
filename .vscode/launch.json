@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open number-guessing.html",
-            "file": "d:\\KHURE\\programming\\site\\projects\\number-guessing.html"
+            "name": "index.html",
+            "file": "d:\\KHURE\\programming\\site\\projects\\index.html"
         }
     ]
 }

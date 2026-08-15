@@ -4,11 +4,11 @@
     font-size: 100px;
 }
 body{
-    background-color: aquamarine;
     text-align: center;
 }
-.button{
-    width: 300px;
-    background-color: white;
-    height:6em;
+button{
+    width: 100px;
+    height:2em;
+    cursor: pointer;
+    border-style: double;
 }
