@@ -15,16 +15,16 @@ numberGuessGameBtn.onclick = function(){
     guess = Number(numberGuessInput.value);
 
     if(answer === guess){
-        window.alert("Correct!");
+        console.log("Correct!");
         answer = Math.floor(Math.random() * (maxVal - minVal + 1) + minVal); 
     }
     else{
-        window.alert("No!");
+        console.log("No!");
     }
 }
 
 startBtn.onclick = function(){
-    timerID = setTimeout(() => window.alert("You lose"),1000);
+    timerID = setTimeout(() => console.log("You lose"),1000);
 }
 
 demineBtn.onclick = function(){

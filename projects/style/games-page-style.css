@@ -1,0 +1,9 @@
+button{
+    border: 1px;
+    border-color: black;
+    cursor: pointer;
+    border-style: double;
+}
+body{
+    text-align: center;
+}
